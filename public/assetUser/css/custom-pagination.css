@@ -1,0 +1,36 @@
+/* Custom pagination style */
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+    /* Khoảng cách giữa các nút phân trang */
+}
+
+.pagination li a,
+.pagination li span {
+    display: inline-block;
+    padding: 5px 10px;
+    /* Kích thước padding của nút phân trang */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+}
+
+.pagination .active span {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+.pagination li a:hover {
+    background-color: #f0f0f0;
+}
+
+svg {
+    width: 20px;
+}
